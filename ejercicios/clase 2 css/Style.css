@@ -1,0 +1,71 @@
+/*body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor-cajas {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 16px;
+}
+.caja{
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caja1{
+    background-color: blueviolet;
+}
+.caja{
+    background-color: darkolivegreen;
+}
+
+table{
+    background-color: rgb(215, 212, 212);
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border: black 1px solid;
+    padding: 8px;
+}
+    */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(213, 211, 211);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(8, 53, 160);
+  padding: 16px;
+  border-radius: 8px;
+  gap: 8px;
+  color: white;
+}
+button {
+  background-color: rgb(5, 155, 5);
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+}
+img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 500px;
+    width: 500px;
+}
