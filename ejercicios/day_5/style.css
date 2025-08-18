@@ -1,0 +1,84 @@
+/* html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  down:0%;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background: #eee;
+  padding: 10px;
+}
+
+.item {
+  background: #ccc;
+  margin: 5px;
+  padding: 5px;
+}
+
+.inicio {
+  align-self: flex-start;
+}
+
+.fin {
+  align-self: flex-end;
+} */
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.box {
+  border: 1px solid #aaa;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
